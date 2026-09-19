@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manojkhatri0025-ops.github.io/age-calculator-india/sitemap.xml

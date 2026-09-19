@@ -32,3 +32,10 @@ Then open `http://localhost:4173`.
 - The contact form offers Gmail compose for manojkhatri98570@gmail.com. Confirm this address before production launch.
 - Review legal/medical copy for the actual business and jurisdiction.
 - Add separate crawlable routes/pages if you want each SEO landing page indexed separately.
+
+
+## GitHub Pages files
+
+The project includes `index.html`, `about.html`, `contact.html`, `privacy-policy.html`, `terms.html`, `disclaimer.html`, `shared.css`, `shared.js`, `favicon.svg`, `robots.txt`, and `sitemap.xml`. Upload the files to the root of the `age-calculator-india` repository and enable GitHub Pages from the `main` branch and `/root` folder.
+
+Project URL: https://manojkhatri0025-ops.github.io/age-calculator-india/
