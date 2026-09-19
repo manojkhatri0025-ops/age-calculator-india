@@ -32,3 +32,5 @@
 /* Full navigation remains compact on desktop and collapses into the mobile menu. */
 .navlinks{gap:16px;font-size:13px}
 @media (max-width:1100px) and (min-width:701px){.nav{gap:12px}.navlinks{gap:9px;font-size:11px}.brand{font-size:14px}}
+
+.navlinks a{position:relative;display:inline-block}.navlinks a.active{color:var(--blue);font-weight:700}.navlinks a.active::after{content:'';position:absolute;left:0;right:0;bottom:-8px;height:2px;border-radius:2px;background:var(--blue)}

@@ -13,3 +13,5 @@
   const menu = $('menuBtn');
   if(menu){ menu.addEventListener('click', () => $('navlinks')?.classList.toggle('open')); document.querySelectorAll('.navlinks a').forEach(a => a.addEventListener('click', () => $('navlinks')?.classList.remove('open'))); }
 })();
+
+(()=>{const current=(location.pathname.split('/').pop()||'index.html').toLowerCase();document.querySelectorAll('.navlinks a').forEach(a=>{const href=(a.getAttribute('href')||'').split('#')[0].split('?')[0].toLowerCase()||'index.html';if(href===current){a.classList.add('active');a.setAttribute('aria-current','page')}})})();
